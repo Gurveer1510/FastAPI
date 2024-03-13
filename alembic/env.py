@@ -14,7 +14,7 @@ from app.config import settings
 config = context.config
 config.set_main_option(
     "sqlalchemy.url",
-    f"postgresql+psycopg2://{settings.database_username}:{settings.database_password}@{settings.database_hostname}:{settings.database_port}/{settings.database_name}",
+    f"postgres://fastapi_6d8i_user:x9ndmCBKhMA1kEFwrohCvfM2qYaeeSUb@dpg-cnopajvjbltc73fk4kt0-a.oregon-postgres.render.com/fastapi_6d8i",
 )
 
 
