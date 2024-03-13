@@ -13,6 +13,7 @@ from app.config import settings
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
+
 config.set_main_option(
     "sqlalchemy.url",
     f"postgres+psycopg2://fastapi_6d8i_user:x9ndmCBKhMA1kEFwrohCvfM2qYaeeSUb@dpg-cnopajvjbltc73fk4kt0-a.oregon-postgres.render.com/fastapi_6d8i",
